@@ -716,6 +716,10 @@ video {
   height: 100svh;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -796,6 +800,10 @@ video {
   width: 700px;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -856,6 +864,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
