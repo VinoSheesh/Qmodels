@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qmodels</title>
     <link rel="stylesheet" href="css/output.css">
     <link rel="icon" href="../src/img/Q.png">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
-<body class="bg-white-full font-poppins">
-    <div class="w-full bg-white">
-        <nav class="w-full flex p-4 justify-evenly border-2" style="">
-            <div class="">
-                <img src="../src/img/logo fiks.png" alt="" class="w-[140px]">
-            </div>
 
-            <ul class="flex items-center gap-10">
-                <li class="text-xl text-blue-600 hover:text-blue-900 font-medium cursor-pointer transition duration-300">Home</li>
-                <li class="text-xl text-blue-600 hover:text-blue-900 font-medium cursor-pointer transition duration-300">About</li>
-                <li class="text-xl text-blue-600 hover:text-blue-900 font-medium cursor-pointer transition duration-300">Benefit</li>
-                <li class="text-xl text-blue-600 hover:text-blue-900 font-medium cursor-pointer transition duration-300">Review</li>
-            </ul>
+<body class="bg-white-full font-poppins w-full">
 
-            <div class="flex items-center justify-center g">
-                <button class="bg-blue-600 hover:bg-blue-900 text-white px-5 py-2 rounded-3xl transition duration-300">Contact Us</button>
+
+    <nav class="bg-white fixed w-full z-20 top-0 start-0 border-gray-300 border-b-2">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://www.instagram.com/qmodels_solo/?hl=en" target="_blank"
+                class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="../src/img/logo fiks.png" class="h-8" alt="Flowbite Logo">
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center">Join</button>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
             </div>
-        </nav>
-    </div>
-    
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero h-svh w-full">
+        <div class="content flex h-full gap-2 justify-center">
+            <div class="flex flex-col flex-1 justify-center">
+                <div class="text flex flex-col justify-end h-full w-full flex-1 ml-20">
+                    <h1 class="font-playfair pl-8 text-7xl font-bold mb-4 text-black">
+                        Maximizing Your <br> Potencies <br> With 
+                        <span class="text-7xl bg-gradient-to-r from-blue-500 via-cyan-500 to-blue-700 bg-clip-text text-transparent">
+                          Qmodels
+                        </span>
+                      </h1>
+                    <p class="font-poppins pl-8 text-lg text-gray-600 max-w-prose">QModels - Tempat terbaik untuk
+                        mengasah bakat, meningkatkan percaya diri, dan menjadi model
+                        profesional⭐</p>
+                </div>
+
+                <div class="flex-1 h-full w-full">
+
+                </div>
+            </div>
+            <div class="image flex flex-col justify-center items-center h-full w-full flex-1">
+                <img src="../src/img/image-removebg-preview.png" alt="" class="w-[400px] mx-auto object-contain z-10">
+                <img src="../src/img/blob.svg" width="700" alt="" class="absolute z-0">
+            </div>
+    </section>
+
+
 </body>
+
 </html>
