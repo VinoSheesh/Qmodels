@@ -12,12 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body class="bg-white-full font-poppins w-full">
-
-
+<body class="bg-white-full font-poppins">
     <nav class="bg-white fixed w-full z-20 top-0 start-0 border-gray-300 border-b-2">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://www.instagram.com/qmodels_solo/?hl=en" target="_blank"
@@ -63,50 +61,57 @@
         </div>
     </nav>
 
-    <section class="hero h-svh w-full flex justify-evenly items-center">
-        <div class="flex flex-col w-fit justify-center items-center h-full">
+
+    <section class="hero h-svh w-screen flex justify-evenly items-center">
+        <div class="flex flex-col w-fit items-center h-full justify-center 2xl:px-36 xl:px-32 lg:px-28 md:px-28 sm:px-28 gap-6">
             <div class="text flex flex-col justify-center items-center">
-                <h1 class="font-playfair text-7xl font-bold mb-4 text-black">
-                    Maximizing Your <br> Potencies <br> With
-                    <span
-                        class="text-7xl bg-gradient-to-r from-blue-700 via-blue-400 to-blue-700 bg-clip-text text-transparent border-b-4">
+                <h1
+                    class="font-playfair 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl font-bold mb-4 text-black">
+                    Maximizing Your Potencies With
+                    <span class="bg-gradient-to-r from-blue-700 via-blue-400 to-blue-700 bg-clip-text text-transparent">
                         Qmodels
                     </span>
                 </h1>
-                <p class="font-poppins max-w-xl text-lg text-gray-500">Jadilah bintang di dunia modeling dengan
+                <p
+                    class="font-poppins w-auto 2xl:text-lg xl:text-base lg:text-sm md:text-xs sm:text-xs text-gray-500 mt-1">
+                    Jadilah bintang di dunia modeling dengan
                     Qmodels! Kami hadir untuk membimbing dan mengembangkan bakatmu dengan pelatihan profesional,
                     mentor berpengalaman, dan peluang eksklusif di industri fashion. Mulai perjalananmu sekarang dan
                     raih panggung impian!</p>
             </div>
 
-            <div class="w-full mt-4 flex gap-16">
-                <div class="tahun w-fit">
-                    <p class="text-5xl font-bold text-blue-500 font-poppins counter">0</p>
-                    <h1 class="text-1xl font-bold text-gray-500 text-center">Berdiri Sejak</h1>
-                </div>
-
-                <div class="tahun w-fit">
-                    <p class="text-5xl font-bold text-blue-500 font-poppins counter">0</p>
-                    <h1 class="text-1xl font-bold text-gray-500 text-center">client puas</h1>
-                </div>
-
-                <div class="tahun w-fit">
-                    <p class="text-5xl font-bold text-blue-500 font-poppins counter">0</p>
-                    <h1 class="text-1xl font-bold text-gray-500 text-center">client puas</h1>
-                </div>
+            <div class="flex flex-row w-full h-fit gap-4">
+                <a href=""
+                    class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 w-9 h-9 flex items-center justify-center"><i
+                        class='bx bxl-instagram text-2xl p-1'></i></a>
+                <a href=""
+                    class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 w-9 h-9 flex items-center justify-center"><i
+                        class='bx bxl-tiktok text-2xl'></i></a>
+                <a href=""
+                    class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 w-9 h-9 flex items-center justify-center""text-blue-600"><i
+                        class='bx bxl-facebook text-2xl'></i></a>
+                <a href=""
+                    class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 w-9 h-9 flex items-center justify-center"><i
+                        class='bx bxl-youtube text-2xl'></i></a>
             </div>
 
 
-            <div class="flex w-full mt-14">
+            <div class="flex w-full gap-5">
                 <button
-                    class="bg-blue-600 hover:bg-blue-800 text-white font-medium rounded-lg px-6 py-4 text-center transition-all ">Contact
-                    Us</button>
+                    class="bg-blue-600 hover:bg-blue-800 text-white font-medium rounded-full px-8 py-3.5 text-center transition-all ">Kontak
+                    Kami</button>
+
+                <button
+                    class="bg-white hover:bg-gray-200 text-blue-600 border-2 border-blue-600 font-medium rounded-full px-8 py-3.5 text-center transition-all ">Selanjutnya</button>
+
             </div>
         </div>
 
-        <div class="image flex flex-col justify-center items-center h-full">
-            <img src="../src/img/image-removebg-preview.png" alt="" class="w-[400px] object-contain z-10">
-            <img src="../src/img/blob.svg" width="700" alt="" class="absolute z-0">
+        <div class="image flex flex-col justify-center items-center h-full w-screen">
+            <img src="../src/img/image-removebg-preview.png" alt=""
+                class="w-[150px] 2xl:w-[400px] xl:w-[300px] lg:w-[250px] md:w-[225px] sm:w-[200px] object-contain z-10">
+            <img src="../src/img/blob.svg" alt=""
+                class="max-w-screen-2xl lg:w-[500px] md:w-[400px] sm:w-[300px] absolute z-0">
         </div>
     </section>
 
