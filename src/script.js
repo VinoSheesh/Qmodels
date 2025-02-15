@@ -1,19 +1,14 @@
 document.getElementById("viewMoreBtn").addEventListener("click", function () {
-    let hiddenCards = document.querySelectorAll("#servicesGrid .hidden");
+    let extraCards = document.getElementById("extraCards");
 
-    if (hiddenCards.length > 0) {
-        // Jika masih ada card yang tersembunyi, tampilkan semua
-        hiddenCards.forEach(card => {
-            card.classList.remove("hidden");
-        });
-        this.textContent = "View Less"; // Ubah teks tombol
+    if (extraCards.classList.contains("max-h-0")) {
+        extraCards.classList.remove("max-h-0");
+        extraCards.classList.add("max-h-screen");
+        this.textContent = "View Less";
     } else {
-        // Jika semua sudah terlihat, sembunyikan kembali
-        let allCards = document.querySelectorAll("#servicesGrid > div:nth-child(n+4)");
-        allCards.forEach(card => {
-            card.classList.add("hidden");
-        });
-        this.textContent = "View More"; // Ubah teks tombol kembali
+        extraCards.classList.add("max-h-0");
+        extraCards.classList.remove("max-h-screen");
+        this.textContent = "View More";
     }
 });
 
