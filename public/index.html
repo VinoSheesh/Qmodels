@@ -15,8 +15,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body class="bg-white-full font-poppins">
-    <nav class="bg-white fixed w-full z-20 top-0 start-0 border-gray-300 border-b-2">
+<body class="bg-white-full font-poppins overflow-x-hidden">
+    <nav id="navbar"
+        class="bg-white fixed w-full z-20 top-0 start-0 border-gray-300 border-b-2 transition-transform duration-300">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://www.instagram.com/qmodels_solo/?hl=en" target="_blank"
                 class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -53,8 +54,8 @@
                             class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Services</a>
                     </li>
                     <li>
-                        <a href="#"
-                            class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
+                        <a href="#" clas
+                            s="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,8 +63,10 @@
     </nav>
 
 
-    <section class="hero h-svh w-screen flex sm:flex-row flex-col sm:justify-evenly justify-around items-center ">
-        <div class="flex flex-col  w-fit items-center h-full justify-center 2xl:px-36 xl:px-32 lg:px-28 md:px-28 sm:px-28 px-6 sm:pt-0 pt-24 min-[320px]:pt-40 gap-6">
+    <section
+        class="hero sm:h-svh h-fit w-screen flex sm:flex-row flex-col sm:justify-evenly justify-around items-center ">
+        <div
+            class="flex flex-col  w-fit items-center h-full justify-center 2xl:px-36 xl:px-32 lg:px-30 md:px-18 sm:px-14 px-6 sm:pt-0 min-[390px]:pt-24 min-[320px]:pt-20 gap-6">
             <div class="text flex flex-col sm:justify-center justify-end items-center">
                 <h1
                     class="font-playfair 2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-5xl font-bold mb-4 text-black">
@@ -97,11 +100,11 @@
 
             <div class="flex w-full gap-5">
                 <button
-                    class="bg-blue-600 hover:bg-blue-800 text-white 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-xs text-sm font-medium rounded-full 2xl:px-8 xl:px-7 lg:px-6 md:px-5 sm:px-4 px-6 2xl:py-3.5 xl:py-3 lg:py-2.5 md:py-2 sm:py-1.5 py-3 text-center transition-all text-nowrap ">Kontak
+                    class="bg-blue-600 hover:bg-blue-800 text-white 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-xs text-sm font-medium rounded-full 2xl:px-8 xl:px-7 lg:px-6 md:px-5 sm:px-4 px-6 2xl:py-3.5 xl:py-3 lg:py-2.5 md:py-2 sm:py-1.5 py-3 text-center transition-all text-nowrap flex items-center gap-1">Kontak
                     Kami</button>
 
                 <button
-                    class="bg-white hover:bg-gray-200 text-blue-600 border-2 border-blue-600 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-xs text-sm font-medium rounded-full 2xl:px-8 xl:px-7 lg:px-6 md:px-5 sm:px-4 px-6 2xl:py-3.5 xl:py-3 lg:py-2.5 md:py-2 sm:py-1.5 py-3 text-center transition-all text-nowrap">Selanjutnya</button>
+                    class="bg-white hover:bg-gray-200 text-blue-600 border-2 border-blue-600 2xl:text-lg xl:text-lg lg:text-base md:text-sm sm:text-xs text-sm font-medium rounded-full 2xl:px-8 xl:px-7 lg:px-6 md:px-5 sm:px-4 px-6 2xl:py-3.5 xl:py-3 lg:py-2.5 md:py-2 sm:py-1.5 py-3 text-center transition-all text-nowrap flex items-center gap-1">Selanjutnya</button>
 
             </div>
         </div>
@@ -114,16 +117,192 @@
         </div>
     </section>
 
-    <section class="h-full w-full bg-blue-600 flex">
-        <div class="flex-1">
-            <img src="../src/img/image_2025-02-13_204719143.jpg" alt="">
+    <section
+        class="w-full bg-blue-600 flex sm:flex-row flex-col-reverse items-center lg:gap-0 gap-6 pt-12 2xl:px-28 xl:px-24 lg:px-20 md:px-16 sm:px-14 px-6">
+        <div class="flex-1 flex col justify-center items-center">
+            <img src="../src/img/image_2025-02-14_214635635-removebg-preview.png" alt=""
+                class="2xl:w-[300px] xl:w-[250px] lg:w-[200px] md:w-[190px] sm:w-[175px] w-[225px] object-contain z-10"">
+            <img src=" ../src/img/whiteblob.svg" alt=""
+                class="max-w-screen 2xl:w-[550px] xl:w-[500px] lg:w-[425px] md:w-[350px] sm:w-[300px] w-[400px] absolute z-0 translate-y-14">
         </div>
 
-        <div class="flex-1 flex flex-col justify-center">
-            <h1 class="text-white text-7xl font-medium">About Qmodels</h1>
-            <p class="text-gray-200 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sapiente molestiae repudiandae consequatur enim labore, aspernatur, quisquam natus tempora ullam vel quas laborum amet, commodi quos ex cupiditate nam quaerat ea aliquam inventore quo expedita totam? Illo fuga obcaecati maiores laboriosam, placeat non sed molestiae asperiores impedit quo et! Non.</p>
+        <div class="flex-1 h-full w-full flex-col">
+            <div class="flex flex-col mb-6">
+                <h1
+                    class="text-white  2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-5xl font-medium font-poppins">
+                    About <span class="font-playfair font-bold">Qmodels</span></h1>
+                <p class="text-gray-300 2xl:text-lg xl:text-base lg:text-sm md:text-xs sm:text-xs mt-3">Lorem ipsum
+                    dolor sit amet, consectetur adipisicing
+                    elit. Excepturi sapiente molestiae repudiandae consequatur enim labore, aspernatur, quisquam natus
+                    tempora ullam vel quas laborum amet, commodi quos ex cupiditate nam quaerat ea aliquam inventore quo
+                    expedita totam? Illo fuga obcaecati maiores laboriosam, placeat non sed molestiae asperiores impedit
+                    quo et! Non.</p>
+            </div>
+            <button
+                class="bg-blue-600 hover:bg-white text-white hover:text-blue-600 border-2 border-white 2xl:text-sm xl:text-sm lg:text-sm md:text-sm sm:text-xs text-sm font-medium rounded-2xl 2xl:px-6 xl:px-6 lg:px-6 md:px-5 sm:px-4 px-6 2xl:py-3 xl:py-3 lg:py-2.5 md:py-2 sm:py-1.5 py-3 text-center transition-all text-nowrap flex items-center gap-1">Selanjutnya<i
+                    class='bx bx-right-arrow-alt text-xl hover:rotate-45 transition-all duration-100'></i></button>
         </div>
     </section>
+
+    <div class="h-fit max-w-7xl mx-auto px-4 py-8 font-poppins pt-20" id="counter-section">
+        <h2 class="text-5xl font-semibold mb-2 text-center">Trusted by everyone</h2>
+        <p class="text-gray-600 text-center mb-16">Inspiring growth, innovation, and sustainability for a better future in Modelling</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white hover:bg-gray-200 transition-all duration-200 hover:scale-105 shadow-md rounded-lg p-6 text-center">
+                <i class='bx bx-headphone text-3xl bg-gray-200 rounded-full p-1.5 mb-5'></i>
+                <h3 class="text-4xl font-bold text-blue-600 counter" data-target="95">0%</h3>
+                <p class="text-gray-500">Customer satisfaction</p>
+            </div>
+            <div class="bg-white hover:bg-gray-200 transition-all duration-200 hover:scale-105 shadow-md rounded-lg p-6 text-center">
+                <i class='bx bxs-award text-3xl bg-gray-200 rounded-full p-1.5 mb-5'></i>
+                <h3 class="text-4xl font-bold text-blue-600 counter" data-target="500">0+</h3>
+                <p class="text-gray-500">Winning awards</p>
+            </div>
+            <div class="bg-white hover:bg-gray-200 transition-all duration-200 hover:scale-105 shadow-md rounded-lg p-6 text-center">
+                <i class='bx bxs-badge-check text-3xl bg-gray-200 rounded-full p-1.5 mb-5'></i>
+                <h3 class="text-4xl font-bold text-blue-600 counter" data-target="600">0+</h3>
+                <p class="text-gray-500">Successful Student</p>
+            </div>
+            <div class="bg-white hover:bg-gray-200 transition-all duration-200 hover:scale-105 shadow-md rounded-lg p-6 text-center">
+                <i class='bx bxs-calendar text-3xl bg-gray-200 rounded-full p-1.5 mb-5'></i>
+                <h3 class="text-4xl font-bold text-blue-600 counter" data-target="13">0+</h3>
+                <p class="text-gray-500">Years of experience</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="sm:h-svh h-fit w-screen flex flex-col mx-auto px-4 py-8 font-poppins pt-24">
+    
+        <div class="text-center mb-16">
+            <h2 class="text-5xl font-semibold">Our Services</h2>
+            <p class="mt-4 text-gray-700">We bridge the gap between tradition and technology, helping farmers achieve their
+                goals with ease</p>
+        </div>
+    
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-24" id="servicesGrid">
+    
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="../src/img/Kids.png" alt="Farm Consultancy" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">Kids Class</h3>
+                    <p class="mt-2 text-gray-600 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo mollitia, alias laborum facere reprehenderit explicabo accusantium tempora quod atque, sequi eaque quaerat suscipit blanditiis!.</p>
+                    <a href="" class="text-blue-500 text-lg flex items-center">Read More<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="../src/img/teens.png" alt="Sustainable Practices" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">Teens Class</h3>
+                    <p class="mt-2 text-gray-600 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo mollitia, alias laborum facere reprehenderit explicabo accusantium tempora quod atque, sequi eaque quaerat suscipit blanditiis!.</p>
+                    <a href="" class="text-blue-500 text-lg flex items-center">Read More<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="../src/img/adult.png" alt="Equipment Rental" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">Adult Class</h3>
+                    <p class="mt-2 text-gray-600 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo mollitia, alias laborum facere reprehenderit explicabo accusantium tempora quod atque, sequi eaque quaerat suscipit blanditiis!.</p>
+                    <a href="" class="text-blue-500 text-lg flex items-center">Read More<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+    
+            <!-- Card Tambahan (Awalnya Tersembunyi) -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hidden">
+                <img src="../src/img/Kids.png" alt="New Class" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">New Class</h3>
+                    <p class="mt-2 text-gray-600 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo mollitia, alias laborum facere reprehenderit explicabo accusantium tempora quod atque, sequi eaque quaerat suscipit blanditiis!.</p>
+                    <a href="" class="text-blue-500 text-lg flex items-center">Read More<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+    
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hidden">
+                <img src="../src/img/teens.png" alt="Advanced Class" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">intermediate Class</h3>
+                    <p class="mt-2 text-gray-600 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo mollitia, alias laborum facere reprehenderit explicabo accusantium tempora quod atque, sequi eaque quaerat suscipit blanditiis!.</p>
+                    <a href="" class="text-blue-500 text-lg flex items-center">Read More<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden hidden">
+                <img src="../src/img/adult.png" alt="Advanced Class" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold">Advanced Class</h3>
+                    <p class="mt-2 text-gray-600 mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nemo mollitia, alias laborum facere reprehenderit explicabo accusantium tempora quod atque, sequi eaque quaerat suscipit blanditiis!.</p>
+                    <a href="" class="text-blue-500 text-lg flex items-center">Read More<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div class="text-center mt-8">
+            <button id="viewMoreBtn" class="px-6 py-3 bg-blue-500 text-white text-xs font-medium rounded-full hover:bg-blue-700 transition">
+                View More
+            </button>
+        </div>
+    
+    </section>
+
+    <footer class="py-12 px-6 border-2 border-blue-600">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <img src="../src/img/logo fiks.png" alt="" class="max-w-32">
+                <p class="mt-2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet autem rerum libero minima magni ipsam est odit accusantium? Omnis, aliquam.
+                </p>
+            </div>
+            <div>
+                <h2 class="text-lg font-semibold">Office</h2>
+                <p class="mt-2">Jl. Wora Wari No.25<br>Sriwedari, Kec. Laweyan<br>Surakarta, Jawa Tengah 57141<br>Indonesia</p>
+                <p class="mt-2">Qmodels@gmail.com</p>
+                <p class="mt-2">+91 - 0123456789</p>
+            </div>
+            <div>
+                <h2 class="text-lg font-semibold">Links</h2>
+                <ul class="mt-2 space-y-1">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">About</a></li>
+                    <li><a href="#" class="hover:underline">Services</a></li>
+                    <li><a href="#" class="hover:underline">Contacts</a></li>
+                    <li><a href="#" class="hover:underline">Lorem</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-lg font-semibold">Newsletter</h2>
+                <div class="mt-2">
+                    <input type="email" placeholder="Enter your email id" 
+                           class="p-2 w-full mb-2 rounded bg-gray-800 text-white placeholder-gray-400">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded">Subscribe</button>
+                </div>
+                <div class="flex flex-row w-full h-fit gap-4 mt-8">
+                    <a href=""
+                        class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 2xl:w-9 xl:w-9 lg:w-8 md:w-7 sm:w-6 w-8 2xl:h-9 xl:h-9 lg:h-8 md:h-7 sm:h-6 h-8 flex items-center justify-center"><i
+                            class='bx bxl-instagram 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-xl p-1'></i></a>
+                    <a href=""
+                        class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 2xl:w-9 xl:w-9 lg:w-8 md:w-7 sm:w-6 w-8 2xl:h-9 xl:h-9 lg:h-8 md:h-7 sm:h-6 h-8 flex items-center justify-center"><i
+                            class='bx bxl-tiktok 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-xl p-1'></i></a>
+                    <a href=""
+                        class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 2xl:w-9 xl:w-9 lg:w-8 md:w-7 sm:w-6 w-8 2xl:h-9 xl:h-9 lg:h-8 md:h-7 sm:h-6 h-8 flex items-center justify-center"><i
+                            class='bx bxl-facebook 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-xl p-1'></i></a>
+                    <a href=""
+                        class="text-blue-600 hover:text-white hover:bg-blue-600 transition-all duration-200 border-2 rounded-full border-blue-700 2xl:w-9 xl:w-9 lg:w-8 md:w-7 sm:w-6 w-8 2xl:h-9 xl:h-9 lg:h-8 md:h-7 sm:h-6 h-8 flex items-center justify-center"><i
+                            class='bx bxl-youtube 2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg sm:text-base text-xl p-1'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8">
+            <p class="text-sm">VinDev © 2025 - All Rights Reserved</p>
+        </div>
+    </footer>
+    
+
 
     <script src="../src/script.js"></script>
 </body>
